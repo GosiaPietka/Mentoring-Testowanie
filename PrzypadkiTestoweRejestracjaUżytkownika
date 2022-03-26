@@ -1,0 +1,156 @@
+Nr 1
+Autor: Małgorzata Piętka
+Priorytet: wysoki
+Data: 15.03.2022
+Funkcja: rejestracja
+Opis: Próba rejestracji z poprawnym hasłem i loginem 
+Warunki wstępne: brak zarejestrowanego użytkownika o email kowalski@example.com
+
+Kroki -> Oczekiwany rezultat
+Otwórz stronę rejestracyjną -> strona załadowana
+Wpisz email:  kowalski@example.com -> email pozytywna walidacja
+wpisz hasło: adamK123 -> hasło pozytywna walidacja 
+kliknij guzik Zarejestruj -> poprawna rejestracja do serwisu
+Warunki wyjścia: użytkownik zarejestrowany, dane rejestracyjne zapisane do bazy danych 
+
+Nr 2
+Autor: Małgorzata Piętka
+Priorytet: wysoki
+Data: 15.03.2022
+Funkcja: rejestracja
+Opis: Próba rejestracji z istniejącym email w bazie danych
+warunki wstępne: użytkownik z email kowalski@example.com zarejestrowany
+
+Kroki ->Oczekiwany rezultat
+Otwórz stronę rejestracyjną -> strona załadowana
+Wpisz email:  kowalski@example.com -> email przyjęty
+wpisz hasło: adamK123  -> hasło przyjęte
+kliknij guzik Zarejestruj -> brak rejestracji w serwisie, komunikat informacyjny
+Warunki wyjścia: użytkownik niezarejestrowany, wyświetlenie komunikatu o istniejącym użytkowniku z takim adresem email
+
+Nr 3
+Autor: Małgorzata Piętka
+Priorytet: wysoki
+Data: 15.03.2022
+Funkcja: rejestracja
+Opis: Próba rejestracji z pozostawionym pustym polem email i hasło
+warunki wstępne: brak zarejestrowanego użytkownika o email kowalski@example.com
+
+Kroki -> Oczekiwany rezultat
+Otwórz stronę rejestracyjną -> strona załadowana
+Wpisz email:  (pole puste) -> email odrzucony
+Wpisz hasło: (pole puste) -> hasło odrzucone
+kliknij guzik Zarejestruj -> brak rejestracji w serwisie, komunikat informacyjny
+Warunki wyjścia: użytkownik niezarejestrowany, wyświetlenie komunikatu o konieczności uzupełnienia pola email oraz hasło
+
+Nr 4
+Autor: Małgorzata Piętka
+Priorytet: wysoki
+Data: 15.03.2022
+Funkcja: rejestracja
+Opis: Próba rejestracji przy użyciu poprawnego adresu email, pole hasło pozostawione puste
+warunki wstępne: brak zarejestrowanego użytkownika o email kowalski@example.com
+
+Kroki ->Oczekiwany rezultat
+Otwórz stronę rejestracyjną -> strona załadowana
+Wpisz email:  kowalski@example.com -> email przyjęty
+wpisz hasło: (pole pozostawiamy puste) -> hasło odrzucone
+kliknij guzik Zarejestruj -> brak rejestracji w serwisie, komunikat informacyjny
+Warunki wyjścia: użytkownik niezarejestrowany, wyświetlenie komunikatu o braku hasła
+
+Nr 5
+Autor: Małgorzata Piętka
+Priorytet: wysoki
+Data: 15.03.2022
+Funkcja: rejestracja
+Opis: Próba rejestracji przy pozostawieniu pola email pustego, pole hasło zawiera poprawne dane
+warunki wstępne: brak
+
+Kroki -> Oczekiwany rezultat
+Otwórz stronę rejestracyjną -> strona załadowana
+Wpisz email:  (pole pozostawiamy puste) -> email odrzucony
+wpisz hasło: adamK123  -> hasło przyjęte
+kliknij guzik Zarejestruj ->brak rejestracji w serwisie, komunikat informacyjny
+Warunki wyjścia: użytkownik niezarejestrowany, wyświetlenie komunikatu o braku adresu email
+
+Nr 6
+Autor: Małgorzata Piętka
+Priorytet: wysoki
+Data: 15.03.2022
+Funkcja: rejestracja
+Opis: Próba rejestracji przy użyciu adresu email bez znaku “@”, pole hasło zawiera poprawne dane
+warunki wstępne: brak
+
+Kroki -> Oczekiwany rezultat
+Otwórz stronę rejestracyjną -> strona załadowana
+Wpisz email:  kowalskiexample.com ->email odrzucony
+wpisz hasło: adamK123  ->hasło przyjęte
+kliknij guzik Zarejestruj ->brak rejestracji w serwisie, komunikat informacyjny
+Warunki wyjścia: użytkownik niezarejestrowany, wyświetlenie komunikatu o niepoprawnym formacie adresu email
+
+Nr 7
+Autor: Małgorzata Piętka
+Priorytet: wysoki
+Data: 15.03.2022
+Funkcja: rejestracja
+Opis: Próba rejestracji przy użyciu adresu email ze znakiem spacji, pole hasło zawiera poprawne dane
+warunki wstępne: brak
+
+Kroki -> Oczekiwany rezultat
+Otwórz stronę rejestracyjną -> strona załadowana
+Wpisz email:  kowal ski@example.com ->email odrzucony
+wpisz hasło: adamK123  ->hasło przyjęte
+kliknij guzik Zarejestruj -> brak rejestracji w serwisie, komunikat informacyjny
+Warunki wyjścia: użytkownik niezarejestrowany, wyświetlenie komunikatu o niepoprawnym formacie adresu email
+
+Nr 8
+Autor: Małgorzata Piętka
+Priorytet: wysoki
+Data: 15.03.2022
+Funkcja: rejestracja
+Opis: Próba rejestracji przy użyciu adresu email bez znaku “.”, pole hasło zawiera poprawne dane
+warunki wstępne: brak
+
+Kroki -> Oczekiwany rezultat
+Otwórz stronę rejestracyjną -> strona załadowana
+Wpisz email:  kowalski@examplecom -> email odrzucony
+wpisz hasło: adamK123  -> hasło przyjęte
+kliknij guzik Zarejestruj -> brak rejestracji w serwisie, komunikat informacyjny
+Warunki wyjścia: użytkownik niezarejestrowany, wyświetlenie komunikatu o niepoprawnym formacie adresu email
+
+Nr 9
+Autor: Małgorzata Piętka
+Priorytet: wysoki
+Data: 15.03.2022
+Funkcja: rejestracja
+Opis: Próba rejestracji z poprawnym adresem email, hasło zawiera znak spacji 
+warunki wstępne: brak zarejestrowanego użytkownika o email kowalski@example.com
+
+Kroki -> Oczekiwany rezultat
+Otwórz stronę rejestracyjną -> strona załadowana
+Wpisz email:  kowalski@example.com -> email przyjęty
+wpisz hasło: adam K123  -> hasło odrzucone
+kliknij guzik Zarejestruj -> brak rejestracji w serwisie, komunikat informacyjny
+Warunki wyjścia: użytkownik niezarejestrowany, wyświetlenie komunikatu o niepoprawnym formacie hasła
+
+Nr 10
+Autor: Małgorzata Piętka
+Priorytet: wysoki
+Data: 15.03.2022
+Funkcja: rejestracja
+Opis: Próba rejestracji z poprawnym adresem email, hasło zawiera mniej niż 8 znaków
+warunki wstępne: brak zarejestrowanego użytkownika o email kowalski@example.com
+
+Kroki -> Oczekiwany rezultat
+Otwórz stronę rejestracyjną -> strona załadowana
+Wpisz email:  kowalski@example.com -> email przyjęty
+Wpisz hasło: adamK1  -> hasło odrzucone
+Kliknij guzik Zarejestruj -> brak rejestracji w serwisie, komunikat informacyjny
+Warunki wyjścia: użytkownik niezarejestrowany, wyświetlenie komunikatu o niepoprawnym formacie hasła
+
+
+
+
+
+
+
