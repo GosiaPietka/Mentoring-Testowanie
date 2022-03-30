@@ -1,0 +1,39 @@
+ID: 02
+Title: Product price differs when adding to cart
+
+Priority: 
+High
+
+Issue Type:
+Functional
+
+Severity: 
+Very
+
+Environment:
+https://corporate.mattel.com/, Windows 11 64 bit, 
+Google Chrome version: Version 99.0.4844.82
+
+Description:
+The price of products in the Mantel main store differs from the price in the stores where we make the purchase.
+
+Steps to reproduce:
+    1. Open the test URL https://corporate.mattel.com/en-us/brand-portfolio
+    2. Click on Brands Portfolio
+    3. Scroll down and click on Barbie
+    4. Click on the product "Barbie® Dreamhouse™ Playset"
+    5. Click on Where to buy
+    6. Click on Add to cart
+
+Expected result:
+The prices across the platforms should be the same/match
+
+Actual result:
+The prices differ across the platforms
+Exact URL Mattel: https://shop.mattel.com/products/barbie-dreamhouse-playset-grg93 
+Exact URL Walmart: https://www.walmart.com/ip/seort/218018958
+
+Attachments:
+02.01_Screen
+02.02_Screen
+02.01_Record

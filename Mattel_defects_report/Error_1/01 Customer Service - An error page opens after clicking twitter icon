@@ -1,0 +1,33 @@
+ID: 01
+Title: Customer Service - An error page opens after clicking the Twitter icon
+
+Priority: 
+Medium
+
+Issue Type:
+Functional
+
+Severity:
+Somewhat
+
+Environment:
+https://corporate.mattel.com/, Windows 11 64 bit, 
+Google Chrome version: Version 99.0.4844.82
+
+Description:
+The "Mattel" Twitter Icon button does not link to the appropriate page.
+
+Steps to reproduce:
+    1. Open the site https://corporate.mattel.com/en-us/brand-portfolio
+    2. Click "Customer Service"
+    3. Click "Mattel" Button Bird
+
+Expected result:
+The link will lead to a valid page.
+
+Actual result:
+An error page opens - "This site can’t be reached. Check if there is a typo in de.twitter.com."
+
+Attachments:
+01.01_Screen
+01.01_Record

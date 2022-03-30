@@ -1,0 +1,35 @@
+ID: 03
+Title: PLP - Shop Now button is unresponsive
+
+Priority: 
+Medium
+
+Issue Type:
+Functional
+
+Severity: 
+Very
+
+Environment:
+https://corporate.mattel.com/, Windows 11 64 bit, 
+Google Chrome version: Version 99.0.4844.82
+
+Description:
+The button to buy a gift basket does not work on the Barbie products page
+
+Steps to reproduce:
+    1. Open the test URL https://corporate.mattel.com/en-us/brand-portfolio
+    2. Click on Brand Portfolio
+    3. Click on Barbie
+    4. Scroll down and click on Shop Now button on the right side
+
+Expected result:
+User should be redirected to the gifts ideas page
+
+Actual result:
+Button is unresponsive
+https://shop.mattel.com/collections/barbie?utm_source=corporate.mattel.com#sort.ss_price=desc
+
+Attachments:
+03.01_Screen
+03.01_Record
